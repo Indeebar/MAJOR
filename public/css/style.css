@@ -1,0 +1,153 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+      
+}
+
+.container{
+    flex:1;
+}
+
+
+
+
+
+
+
+
+.navbar {
+    height: 4rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+
+}
+
+.nav-link{
+    color:#222222 !important;
+
+}
+
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links, 
+.f-info-socials,.f-info-brand{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.f-info div,
+.f-info-socials i,
+.f-info-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.f-info {
+    display: flex;
+    height: 8rem;
+    background: 
+      radial-gradient(calc(1.28*25px + 9.38px/2) at left 50% bottom calc(-.8*25px),#d2d2d2 calc(100% - 9.38px),#cbcbcb calc(101% - 9.38px) 100%,#0000 101%) calc(2*25px) calc(-1*calc(1.5*25px + 9.38px)),
+      radial-gradient(calc(1.28*25px + 9.38px/2) at left 50% bottom calc(-.8*25px),#dddddd calc(100% - 9.38px),#cbcbcb calc(101% - 9.38px) 100%,#0000 101%) calc(-1*25px) calc(calc(1.5*25px + 9.38px)/-2),
+      radial-gradient(calc(1.28*25px + 9.38px/2) at left 50% top    calc(-.8*25px),#dddddd calc(100% - 9.38px),#cbcbcb calc(101% - 9.38px) 100%,#0000 101%) 0 calc(1.5*25px + 9.38px),
+      radial-gradient(calc(1.28*25px + 9.38px/2) at left 50% top    calc(-.8*25px),#d2d2d2 calc(100% - 9.38px),#cbcbcb calc(101% - 9.38px) 100%,#0000 101%) 25px calc(calc(1.5*25px + 9.38px)/ 2),
+      linear-gradient(#d2d2d2 50%,#dddddd 0);
+    background-size: calc(4*25px) calc(1.5*25px + 9.38px);
+    border-top: 1px solid rgb(67, 67, 67);
+    background-color: #ebebeb ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+
+/* Cards */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text {
+    font-weight: 400;
+}
+
+.list-link {
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* Show Page */
+.show-img {
+    height: 40vh;
+    width:fit-content;
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+
+.add-btn{
+    background-color: #fe424d !important;
+    border:none !important;
+
+
+}
+.edit-btn{
+    background-color: #fe424d !important;
+    border:none !important;
+
+
+}
+.delete-btn {
+    background-color: #333 !important;
+    color: white!important ;
+    border: none !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.5rem !important;
+    cursor: pointer!important;
+}
